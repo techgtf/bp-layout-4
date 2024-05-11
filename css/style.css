@@ -299,8 +299,9 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   .navmenu li a {font-size: 14px;}
   .banner-for-mobile .img-slider {object-fit: cover;filter: brightness(0.7);height: 76vh;}  
   .banner_content_wrapper {top: 32%;flex-wrap: wrap;}
-  .content-over-banner {width: 75%;margin: 0 auto auto auto;left: 0;}
-  
+  .content-over-banner {width: 75%;margin: 0 auto auto auto;left: 0; display: none;}
+  .content-over-banner-for-mobile{display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; background: transparent; width: 100%;padding: 36px 20px 20px 23px;border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
+  .banner_content_wrapper {position: static;padding: 0;}  
   .key-highlights {background: var(--black);max-width: 100%;flex-direction: row;align-items: center;padding-top: 0;height: fit-content;}
   .key-highlights .points {width: 50%;}
   .key-highlights .item {padding: 0 5px 10px 20px;}
@@ -308,7 +309,6 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   
   .highlights-contaier .wrap-left {width: 100%;}
   
-  .overview-container {margin-top: 241px;}
   .overview-container .imgdiv {margin-top: 25px;}
   .amenities-container .flexdiv {justify-content: space-evenly;}  
   
@@ -324,14 +324,15 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
 
 @media (max-width: 767px) {
   .navmenu{width: 75%;}
+  .navmenu li{padding:10px 15px; border-bottom:1px solid #fff;
+    &:last-child{border:0; padding:15px 8px 8px 8px;} 
+  }
+  .navmenu .headerbtn{display:block; width:100%;}
   p, a, article, span {font-size: 14px;}
   .common-heading {font-size: 20px;}
   .common-title {font-size: 14px;}
   .header {padding: 5px 0;}
   .bnner-flex-btn {left: inherit;right: 15px;bottom: 6px;}
-  .banner_content_wrapper {position: static;padding: 0;}
-  .content-over-banner {display: none;}  
-  .content-over-banner-for-mobile{display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; background: transparent; width: 100%;padding: 36px 20px 20px 23px;border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
   .content-over-banner::before {top: 0;left: 12px;}
   .content-over-banner::after {top: 17px;}
   .content-over-banner .buttonsdiv {margin: 0;}
