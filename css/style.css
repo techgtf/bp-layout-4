@@ -374,9 +374,10 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   .amenities-container .head{margin-bottom: 15px; padding: 0;}
   .amenities-container .am-images{height: 196px;}
   .amenities-container .fig-cap{left: 0;right: 0;bottom: 0;border-radius: 0;text-align: center;background: #ffffff5c;color: var(--white);font-size: 13px;}
-  .amenities-container .centerd-div .left-inner, .amenities-container .centerd-div .right-inner {display: flex;gap: 0 8px;}
+  .amenities-container .centerd-div .left-inner, .amenities-container .centerd-div .right-inner {display: flex;gap: 0 8px; width: 100%;}
   .amenities-container .flexdiv{gap: 0 8px;}
   .amenities-container .centerd-div{justify-content: center; order: 1;}
+  .amenities-container .centerd-div .imgbox{width: 49%;}
   .amenities-container .leftdiv {order: 2; width: 48%;}
   .amenities-container .rightdiv {order: 3; width: 48%;}
   
@@ -386,11 +387,24 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   .pricingbox .box {width: 100%;padding: 31px 13px;}
   .pricingbox .heading {font-size: 24px;}
     
+  .location-container {padding: 30px 0;}
   .location-container .headings {margin-bottom: 15px;}
   .location-container .listng_ul {padding: 0;}
-  .location-container .lsit_li {padding-bottom: 17px;font-size: 14px;text-align: left;padding-left: 45px;}
-  .location-container .lsit_li::before {position: unset;}
-  .location-container .lsit_li::after {height: 12px;width: 12px;border-radius: 50px;top: 5px;left: 15px;animation: zoom_circle infinite 2s;transform: scale(1.2);}
+  .location-container .lsit_li {
+    padding-bottom: 17px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    background: url(../images/icons/map.svg) no-repeat 3px 5px;
+    background-size: 23px;
+    b{font-size: 16px;}
+  ;
+    border-bottom: 1px solid #b7926c;
+    margin-bottom: 6px;
+  }
+  .location-container .lsit_li::before,  .location-container .lsit_li::after {display: none;}
+  /* .location-container .lsit_li::after {height: 12px;width: 12px;border-radius: 50px;top: 5px;left: 15px;animation: zoom_circle infinite 2s;transform: scale(1.2);} */
   .location-container .imgdiv {margin: 15px 0;}
   .location-container .imgdiv img {width: 137px;}
   .location-container span.btn {padding: 6px 11px;font-size: 14px;font-weight: normal;}
