@@ -330,9 +330,8 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   .header {padding: 5px 0;}
   .bnner-flex-btn {left: inherit;right: 15px;bottom: 6px;}
   .banner_content_wrapper {position: static;padding: 0;}
+  .content-over-banner {display: none;}  
   .content-over-banner-for-mobile{display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; background: transparent; width: 100%;padding: 36px 20px 20px 23px;border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
-  
-  .content-over-banner {display: none;}
   .content-over-banner::before {top: 0;left: 12px;}
   .content-over-banner::after {top: 17px;}
   .content-over-banner .buttonsdiv {margin: 0;}
@@ -348,6 +347,7 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   .key-highlights .points,
   .key-highlights .banner-form {width: 100%;max-width: 100%;background: var(--black);}
   .key-highlights .banner-form{background: var(--primary);}
+  .banner-form input{border-color: #fff;}
   .key-highlights .points .item {padding: 0 15px 10px 15px;}
   
   .book-a-visit.active {bottom: 48px;left: 5px;right: 5px;border-radius: 0;padding: 10px;}
