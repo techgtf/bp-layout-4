@@ -346,8 +346,9 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   .key-highlights {flex-wrap: wrap;padding-top: 8px;}
   .key-highlights .points,
   .key-highlights .banner-form {width: 100%;max-width: 100%;background: var(--black);}
-  .key-highlights .banner-form{background: var(--primary);}
-  .banner-form input{border-color: #fff;}
+  .key-highlights .banner-form{background: var(--primary);padding: 27px;}
+  .banner-form .heading{margin-bottom: 8px;}
+  .banner-form input{border: 1px solid #fff;margin-bottom: 10px;padding: 8px 15px;}
   .key-highlights .points .item {padding: 0 15px 10px 15px;}
   
   .book-a-visit.active {bottom: 48px;left: 5px;right: 5px;border-radius: 0;padding: 10px;}
