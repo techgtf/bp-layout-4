@@ -58,7 +58,7 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
 /* .logo{} */
 .navmenu {margin: auto 0 auto auto;}
 .navmenu li {padding: 8px 10px;}
-.navmenu li a {font-size: 12px;color: var(--white);}
+.navmenu li a {font-size: 14px;color: var(--white);}
 
 /*Navbar End*/
 /*Slider Start*/
@@ -86,7 +86,7 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
 
 
 /* .key-highlights */
-.key-highlights {padding: 38px 0 0 0;height: calc(100vh - 81px);border-left: 1px solid rgba(255, 255, 255, 0.1);border-right: 1px solid rgba(255, 255, 255, 0.1);max-width: 357px;display: flex;flex-direction: column;justify-content: space-between;}
+.key-highlights {padding: 10px 0 0 0;height: calc(100vh - 81px);border-left: 1px solid rgba(255, 255, 255, 0.1);border-right: 1px solid rgba(255, 255, 255, 0.1);max-width: 357px;display: flex;flex-direction: column;justify-content: space-between;}
 .key-highlights .points {gap: 0 25px;}
 .key-highlights .item {margin-bottom: 19px;border-bottom: 1px solid rgba(255, 255, 255, 0.1);padding: 0 5px 15px 15px;}
 .key-highlights .item:last-child {margin-bottom: 0;}
@@ -143,7 +143,7 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
 
 /* End .highlights-contaier */
 /*Price List Start*/
-.pricelist-container {padding: 90px 0;background: #fff url("../images/others/wave.svg") no-repeat;background-size: cover;background-position: 100%;animation: wave-bg 7s infinite alternate;border-top: 0.02px solid #eeeeee7d;}
+.pricelist-container {padding: 90px 0;background-position: 100%;animation: wave-bg 7s infinite alternate;border-top: 0.02px solid #eeeeee7d;background: #eee url(../images/others/background-img.png) no-repeat bottom;}
 .pricelist-container .tabs {border: 1px solid var(--primary);border-radius: 50px;width: fit-content;overflow: hidden;margin-bottom: 50px;}
 .pricelist-container .tab-link {padding: 8px 45px;color: var(--primary);display: block;transition: all 0.4s ease-in-out;}
 .pricelist-container .tabs .tab-link.active,
@@ -409,7 +409,7 @@ button {cursor: pointer;background: var(--primary);color: var(--white);}
   
   .contact-section .right-col {padding: 0;}
   .contact-section .from-col {margin-top: 15px;padding: 0;}
-  .sitefooter {padding-bottom: 120px;}
+  .sitefooter {padding-bottom: 80px;}
 }
 
 /* All Keyframes */
